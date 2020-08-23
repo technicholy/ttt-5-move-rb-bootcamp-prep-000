@@ -1,7 +1,11 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
+puts "Welcome to Tic Tac Toe!"
+puts "Where would you like to go?"
+input = gets.strip
 
 def input_to_index(n)
   display_board(n)
 end
+input_to_index(input)
