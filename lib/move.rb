@@ -11,7 +11,7 @@ end
 def input_to_index(n)
   input = gets.strip
   converted = input.to_i
-  move(n)
+  return converted
 end
 
 # code your input_to_index and move method here!
