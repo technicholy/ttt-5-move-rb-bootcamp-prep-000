@@ -6,7 +6,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 def move(board, pos, player='X')
-  
+
   display_board(n)
 end
 def input_to_index(n)
