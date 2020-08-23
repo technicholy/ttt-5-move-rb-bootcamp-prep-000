@@ -9,4 +9,3 @@ def input_to_index(n)
   converted = input.to_i
   display_board(converted)
 end
-
