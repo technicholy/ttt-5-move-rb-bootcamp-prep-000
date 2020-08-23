@@ -7,7 +7,7 @@ def display_board(board)
 end
 def move(board, pos, player='X')
 
-  display_board(n)
+  display_board(board)
 end
 def input_to_index(n)
   return n.to_i - 1
