@@ -9,7 +9,7 @@ def move(n)
   display_board(n)
 end
 def input_to_index(n)
-  return n.to_i
+  return n.to_i - 1
 end
 
 # code your input_to_index and move method here!
