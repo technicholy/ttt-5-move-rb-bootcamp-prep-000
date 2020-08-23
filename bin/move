@@ -8,4 +8,4 @@ input = gets.strip
 def input_to_index(n)
   display_board(n)
 end
-input_to_index(input)
+input_to_index(input.to_i)
